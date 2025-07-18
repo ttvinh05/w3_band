@@ -28,29 +28,55 @@ html {
 
 }
 
+#nav > li {
+     display: inline-block;
+}
+
 #nav li {
-    display: inline-block;
+    position: relative;
+    list-style-type: none;
+}
+
+#nav > li > a {
+    color: white;
+    text-transform: uppercase;
+}
+
+#nav li:hover .subnav {
+    display: block;
 }
 
 #nav li a {
-    color: white;
     text-decoration: none;
     line-height: 46.5px;
     padding: 0 24px;
-    display: inline-block;
+    display: block;
 }
 
-#nav li:hover a {
+#nav > li:hover > a,
+#nav .subnav li:hover a {
     color: black !important;
     background-color: #ccc !important;
 }
 
 #nav .subnav {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    min-width: 160px;
+}
+
+#nav .subnav a {
+    color: black;
+    padding: 0 16px;
+    line-height: 38px;
 }
 
 #slider {
-
+    
 }
 
 #content {
