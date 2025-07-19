@@ -25,7 +25,7 @@ html {
 }
 
 #nav {
-
+    display: inline-block;
 }
 
 #nav > li {
@@ -73,6 +73,26 @@ html {
     color: black;
     padding: 0 16px;
     line-height: 38px;
+}
+
+ #nav .nav-down {
+    font-size: 14px;
+}
+
+#header .search-btn {
+    float: right;
+}
+
+#header .search-btn:hover {
+    background-color: #f44336 !important;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: white;
+    font-size: 20px;
+    line-height: 46.5px;
+    padding: 0 21px;
 }
 
 #slider {
