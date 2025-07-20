@@ -20,6 +20,10 @@ html {
 }
 
 #header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     height: 46.5px;
     background-color: black;
 }
@@ -96,11 +100,11 @@ html {
 }
 
 #slider {
-    
+    margin-top: 46.5px;       
 }
 
 #content {
-
+ 
 }
 
 #footer {
