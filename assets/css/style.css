@@ -15,6 +15,10 @@ html {
 4. kieu dang
  */
 
+.clear {
+    clear: both;
+}
+
 #main {
 
 }
@@ -159,6 +163,28 @@ html {
     text-align: justify;
     line-height: 1.4;
 }
+
+#content .member-list {
+    margin-top: 47px;
+    margin-bottom: 32px;
+}
+
+#content .member-list .member {
+    float: left;
+    width: 33.333333%;
+    text-align: center;
+}
+
+#content .member-list .member-p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#content .member-list .member-image {
+    width: 154px;
+    border-radius: 4px;
+}
+
 
 #footer {
 
