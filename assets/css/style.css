@@ -26,6 +26,7 @@ html {
     left: 0;
     height: 46.5px;
     background-color: black;
+    z-index: 1;
 }
 
 #nav {
@@ -100,11 +101,33 @@ html {
 }
 
 #slider {
-    margin-top: 46.5px;       
+    position: relative;
+    margin-top: 46.5px;      
+    padding-top: 50%; 
+    background: url(/assets/img/slider/slider1.jpg) top center / cover no-repeat;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 47px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    display: inline-block;
+}
+
+#slider .text-content .slider-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .text-content .slider-text {
+    font-size: 15px;
+    margin-top: 25px;
 }
 
 #content {
- 
+    
 }
 
 #footer {
