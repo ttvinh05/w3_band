@@ -247,10 +247,15 @@ html {
     width: 100%;
 }
 
+#content .div-place img:hover {
+    opacity: 0.6;
+}
+
 #content .place .place-time {
     background-color: white;
     font-size: 15px;
-    padding: 0.15px 16px;
+    padding: 5px 16px;
+    margin-top: -4px;
 }
 
 #content .NY {
@@ -267,12 +272,18 @@ html {
     margin: 15px 0;
 }
 
-#content .buy {
+#content .buy-button {
     display: inline-block;
+    text-decoration: none;
     color: white;
     background-color: black;
     margin: 0 0 16px;
-    padding: 8px 16px;
+    padding: 10px 16px;
+}
+
+#content .buy-button:hover {
+    color: #000;
+    background-color: #ccc;
 }
 
 #footer {
