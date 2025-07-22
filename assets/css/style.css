@@ -185,6 +185,95 @@ html {
     border-radius: 4px;
 }
 
+#content .tour-section {
+    background-color: black;
+}
+
+#content .tour-section .section-heading {
+    color: white;
+}
+
+#content .tour-section .section-sub-heading {
+    color: white;
+    opacity: 0.6;
+}
+
+#content .tour-section .time {
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#content .tour-section .time-list {
+    height: 40px;
+    padding: 8px 16px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    line-height: 23px;
+}
+
+#content .time .name-tl {
+    color: #757575;
+    display: inline-block;
+}
+
+#content .time .soldout {
+    display: inline-block;
+    background-color: #f44336;
+    margin: 0 0 0 16px;
+    padding: 0 8px;
+    color: white;
+}
+
+#content .tl-3 > .soldout {
+    float: right;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 16px 0 0;
+}
+
+#content .place {
+    margin: 0 -16px;
+    padding: 32px 8px;
+}
+
+#content .place .div-place {
+    float: left;
+    width: calc(100% / 3);
+    margin: 0 0 16px;
+    padding: 0 8px;
+}
+
+#content .div-place img {
+    width: 100%;
+}
+
+#content .place .place-time {
+    background-color: white;
+    font-size: 15px;
+    padding: 0.15px 16px;
+}
+
+#content .NY {
+    margin: 15px 0;
+    font-weight: bolder;
+}
+
+#content .p-time {
+    opacity: 0.6;
+    margin: 15px 0;
+}
+
+#content .description {
+    margin: 15px 0;
+}
+
+#content .buy {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    margin: 0 0 16px;
+    padding: 8px 16px;
+}
 
 #footer {
 
