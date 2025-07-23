@@ -289,3 +289,114 @@ html {
 #footer {
 
 }
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.modal-container {
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* text-align: center; */
+}
+
+.modal .modal-close {
+    position: relative;
+}
+
+.modal .ti-close.top {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    padding: 15px 15px;
+    color: white;
+}
+
+.modal .ti-close.top:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.modal-header {
+    background-color: #009688;
+    width: 100%;
+    height: 129px;
+    text-align: center;
+    line-height: 129px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.modal-header .ti-bag {
+    margin-right: 20px;
+}
+
+.modal .modal-body {
+    background-color: white;
+    width: 100%;
+    padding: 16px 16px;
+    font-size: 15px;
+}
+
+.modal .many {
+    display: block;
+    width: 100%;
+    border: #ccc 1px solid;
+    margin: 16px 0;
+    padding: 7px 9px;
+}
+
+.modal .email {
+    display: block;
+    width: 100%;
+    border: #ccc 1px solid;
+    margin: 16px 0;
+    padding: 7px 9px;
+}
+
+.modal .pay {
+    text-decoration: none;
+    width: 100%;
+    background-color: #009688;
+    text-align: center;
+    padding: 14px 0;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.modal .pay:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.modal .close-bottom {
+    color: white;
+    background-color: red;
+    display: inline-block;
+    padding: 8px 14px;
+}
+
+.modal .close-bottom:hover {
+    color: black;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.modal .need {
+    float: right;
+}
+
+.modal .help {
+    color: #2196f3;
+}
+
