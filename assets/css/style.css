@@ -300,11 +300,15 @@ html {
     display: none;
 }
 
+.modal.open {
+    display: flex;
+}
+
 .modal-container {
     padding-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
-    /* text-align: center; */
+    animation: modalFadeIn ease 0.7s;
 }
 
 .modal .modal-close {
@@ -398,5 +402,16 @@ html {
 
 .modal .help {
     color: #2196f3;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
