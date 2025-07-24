@@ -286,8 +286,75 @@ html {
     background-color: #ccc;
 }
 
-#footer {
+#content .contact-content {
+    margin-top: 40px;
+    position: relative;
+} 
 
+#content .pe-contact {
+    width: 50%;
+    position: relative;
+}
+
+#content .contact-content i {
+    position: absolute;
+    padding: 4px 0;
+}
+
+#content .ti-email {
+    left: 2.5px;
+}
+
+#content .contact-content p {
+    padding: 4px 0 4px 30px;
+    font-weight: 500;
+}
+
+#content .contact-input {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content .contact-name {
+    width: 48%;
+    padding: 10px;
+    border: #ccc solid 1px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+#content .contact-email {
+    width: 48.3%;
+    padding: 10px;
+    border: #ccc solid 1px;
+}
+
+#content .contact-message {
+    width: 100%;
+    padding: 10px;
+    border: #ccc solid 1px;
+}
+
+#content .contact-send {
+    position: absolute;
+    top: 99px;
+    right: 0;
+    display: inline;
+    color: white;
+    background-color: #000;
+    padding: 10px;
+}
+
+#content .contact-send:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+#footer {
+    margin-top: 80px;
 }
 
 .modal {
