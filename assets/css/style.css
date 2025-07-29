@@ -537,3 +537,23 @@ html {
         margin-right: 16px;
     }
 }
+
+@media screen and (max-width: 703px) {
+    #main {
+        overflow: hidden;
+    }
+
+    .nav-none, .search-btn, .slider-heading, .slider-text {
+        display: none !important;
+    }
+
+    #band .about-section {
+        padding: 0 16px;
+    }
+
+    .member-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
