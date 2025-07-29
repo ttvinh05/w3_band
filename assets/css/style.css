@@ -137,6 +137,7 @@ html {
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0;
     margin-left: auto;
     margin-right: auto;
@@ -362,7 +363,8 @@ html {
 
 #footer .footer-img {
     background-image: url(/assets/img/footer/map.jpg);
-    width: 100vw;
+    background-size: contain;
+    width: 100%;
     height: 589px;
     margin-bottom: 70px;
 }
@@ -509,3 +511,29 @@ html {
     }
 }
 
+@media screen and (min-width: 704px) and (max-width: 1024px) {
+    #main {
+        overflow: hidden;
+    }
+
+    #band {
+        padding: 64px 20px !important;
+    }
+
+    #tour .time {
+        margin: 0 16px;
+    }
+
+    #tour .place {
+        margin: 0 1px !important;
+    }
+
+    #content .pe-contact {
+        margin-left: 16px;
+    }
+
+    #content .contact-input {
+        width: 51%;
+        margin-right: 16px;
+    }
+}
